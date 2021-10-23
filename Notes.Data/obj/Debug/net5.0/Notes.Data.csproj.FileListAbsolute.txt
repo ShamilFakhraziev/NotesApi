@@ -1,0 +1,12 @@
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\bin\Debug\net5.0\Notes.Data.deps.json
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\bin\Debug\net5.0\Notes.Data.dll
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\bin\Debug\net5.0\ref\Notes.Data.dll
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\bin\Debug\net5.0\Notes.Data.pdb
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\net5.0\Notes.Data.csproj.AssemblyReference.cache
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\net5.0\Notes.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\net5.0\Notes.Data.AssemblyInfoInputs.cache
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\net5.0\Notes.Data.AssemblyInfo.cs
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\net5.0\Notes.Data.csproj.CoreCompileInputs.cache
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\net5.0\Notes.Data.dll
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\net5.0\ref\Notes.Data.dll
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\net5.0\Notes.Data.pdb
