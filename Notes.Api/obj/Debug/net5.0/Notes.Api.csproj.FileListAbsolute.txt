@@ -61,3 +61,7 @@ C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\n
 C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\obj\Debug\net5.0\Notes.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\Notes.Api.xml
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\NLog.dll
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\nlog.config

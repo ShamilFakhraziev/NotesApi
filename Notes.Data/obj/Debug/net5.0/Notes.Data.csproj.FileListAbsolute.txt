@@ -12,4 +12,3 @@ C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\
 C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\bin\Debug\net5.0\Notes.Data.runtimeconfig.json
 C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\bin\Debug\net5.0\Notes.Data.runtimeconfig.dev.json
 C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\net5.0\Notes.Data.genruntimeconfig.cache
-C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Data\obj\Debug\net5.0\Notes.Data.csproj.AssemblyReference.cache

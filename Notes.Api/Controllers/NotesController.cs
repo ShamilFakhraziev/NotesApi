@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Notes.Data.Models;
 using Notes.Data.Repository;
 using System;
@@ -11,12 +12,15 @@ namespace Notes.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class NotesController:ControllerBase
+    public class NotesController : ControllerBase
     {
         private readonly IRepository<Note> repository;
-        public NotesController(IRepository<Note> repository)
+        private readonly ILogger<NotesController> _logger;
+        public NotesController(IRepository<Note> repository, ILogger<NotesController> logger)
         {
             this.repository = repository;
+            _logger = logger;
+            _logger.LogDebug(1, "Injected into NotesController");
         }
 
         /// <summary>
@@ -26,6 +30,7 @@ namespace Notes.Api.Controllers
         [HttpGet]
         public IEnumerable<Note> GetAll()
         {
+            _logger.LogInformation("Getting all notes");
             return repository.All;
         }
         /// <summary>
@@ -36,6 +41,7 @@ namespace Notes.Api.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Note>> Get(int id)
         {
+            _logger.LogInformation("Getting a note");
             var note = await repository.GetByIdAsync(id);
             if (note == null) return NotFound();
             return note;
@@ -48,6 +54,7 @@ namespace Notes.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Note note)
         {
+            _logger.LogInformation("Creating a note");
             await repository.AddAsync(note);
             return CreatedAtAction(nameof(Create), note);
         }
@@ -60,8 +67,7 @@ namespace Notes.Api.Controllers
         [HttpPut]
         public async Task<IActionResult> Update(Note note)
         {
-           
-                
+            _logger.LogInformation("Updating a note");
             await repository.UpdateAsync(note);
             return NoContent();
         }
@@ -73,6 +79,7 @@ namespace Notes.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
+            _logger.LogInformation("Deleting a note");
             var note = await repository.GetByIdAsync(id);
             if (note == null) return NotFound();
             await repository.DeleteAsync(note);

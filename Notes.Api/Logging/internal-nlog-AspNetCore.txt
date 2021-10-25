@@ -1,0 +1,12 @@
+2021-10-26 03:09:34.0873 Info Message Template Auto Format enabled
+2021-10-26 03:09:34.0954 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-26 03:09:34.1300 Info Adding target FileTarget(Name=allfile)
+2021-10-26 03:09:34.1300 Info Adding target FileTarget(Name=ownFile-web)
+2021-10-26 03:09:34.1300 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2021-10-26 03:09:34.1566 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=71, FilePath=C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\nlog.config
+2021-10-26 03:12:09.6368 Info Message Template Auto Format enabled
+2021-10-26 03:12:09.6368 Info Loading assembly: NLog.Web.AspNetCore
+2021-10-26 03:12:09.6789 Info Adding target FileTarget(Name=allfile)
+2021-10-26 03:12:09.6789 Info Adding target FileTarget(Name=ownFile-web)
+2021-10-26 03:12:09.6840 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2021-10-26 03:12:09.7079 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=71, FilePath=C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\nlog.config
