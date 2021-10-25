@@ -1,9 +1,7 @@
 ﻿using Notes.Data.Context;
 using Notes.Data.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Notes.Data.Repository
@@ -37,6 +35,7 @@ namespace Notes.Data.Repository
 
         public async Task UpdateAsync(Note entity)
         {
+
             context.Notes.Update(entity);
             await context.SaveChangesAsync();
         }
