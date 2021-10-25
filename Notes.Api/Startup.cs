@@ -15,6 +15,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Notes.Api
 {
@@ -37,7 +38,9 @@ namespace Notes.Api
             //swagger
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "NotesApi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Notes Api", Version = "v1", Description= "Allows to work with notes"});
+                string filePath = Path.Combine(AppContext.BaseDirectory, "Notes.Api.xml");
+                c.IncludeXmlComments(filePath);
             }
             );
         }

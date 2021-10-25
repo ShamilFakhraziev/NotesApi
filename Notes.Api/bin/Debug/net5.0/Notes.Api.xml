@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Notes.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Notes.Api.Controllers.NotesController.GetAll">
+            <summary>
+            Returns all notes
+            </summary>
+            <returns>List of notes</returns>
+        </member>
+        <member name="M:Notes.Api.Controllers.NotesController.Get(System.Int32)">
+            <summary>
+            Returns note by Id
+            </summary>
+            <param name="id">Note Id</param>
+            <returns>Return note</returns>
+        </member>
+        <member name="M:Notes.Api.Controllers.NotesController.Create(Notes.Data.Models.Note)">
+            <summary>
+            Create note
+            </summary>
+            <param name="note">Note body</param>
+            <returns>Status code with action name and value</returns>
+        </member>
+        <member name="M:Notes.Api.Controllers.NotesController.Update(Notes.Data.Models.Note)">
+            <summary>
+            Update note
+            </summary>
+            <param name="note">Note body</param>
+            <returns>Returns no content</returns>
+        </member>
+        <member name="M:Notes.Api.Controllers.NotesController.Delete(System.Int32)">
+            <summary>
+            Delete note
+            </summary>
+            <param name="id">Note id</param>
+            <returns>Returns no content</returns>
+        </member>
+    </members>
+</doc>

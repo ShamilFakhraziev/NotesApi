@@ -60,3 +60,4 @@ C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\n
 C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\obj\Debug\net5.0\Notes.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Shamil\Documents\CSharpProjects\PetExamples\Notes\Notes.Api\bin\Debug\net5.0\Notes.Api.xml
